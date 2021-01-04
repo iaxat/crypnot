@@ -3,3 +3,4 @@
 # This project will be consisting of various methods to encrypt and decrypt
 import hashlib
 print(hashlib.algorithms_available)
+
