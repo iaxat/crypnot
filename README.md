@@ -6,3 +6,4 @@ This project will also encrypt Image.
 
 This project will use the python crytography library for the encrytion.
 
+<!-- The name crynot is for being a bit funny - Just to tell users not to encrypt cuz no one will be able to read it -->
