@@ -17,4 +17,32 @@ class Crypnot():
     def write_files():
 
 
+    def encrypt_file():
+
+
+    def decrypt_file():
+
+
+    
+    def encrypt_text():
+
+
+    
+    def decrypt_text():
+
+
+
+    def encrypt_image():
+
+
+
+    def decrypt_image():
+
+
+
+    
+    def result():
+
+
+
     
