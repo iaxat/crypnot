@@ -15,6 +15,7 @@ import pandas
 
 class Crypnot():
     def read_file(self,file_name):
+        file_read = open(file_name,'r')
         
     
     def write_files(self):
