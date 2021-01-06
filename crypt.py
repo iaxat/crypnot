@@ -35,7 +35,13 @@ class Crypnot():
 
     def read_file(self,input_file):
         with open(input_file,'r') as input_file_open:
-            
+
+
+
+    def decrypt_message(self):    
+    
+
+
 
 
     def result(self):
