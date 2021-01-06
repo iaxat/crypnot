@@ -51,7 +51,7 @@ class Crypnot():
 
     def image_option:
 
-        
+
 
 
     def start(self):
@@ -61,3 +61,5 @@ class Crypnot():
         print('')
         option = input('Encrypt Options: 1.Text  2.File  3.Image')
         if option == '1':
+
+
