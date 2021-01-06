@@ -22,7 +22,7 @@ class Crypnot():
 
         return key_file
 
-    def load_key(self, generate_key()):
+    def load_key(self):
             return open("secret.key", "rb").read()
 
 
