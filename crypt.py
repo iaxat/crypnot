@@ -61,8 +61,11 @@ class Crypnot():
         print('')
         option = input('Encrypt Options: 1.Text  2.File  3.Image')
         if option == '1':
+            print('Awesome you have selected Text Option')
             text_option()
         elif option == '2':
+            print('Awesome you have selected File Option')
             file_option()
         elif option == '3':
+            print('Awesome you have selected Image Option')
             image_option()
