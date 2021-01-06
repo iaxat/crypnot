@@ -47,7 +47,9 @@ class Crypnot():
     
     def result(self):
         print('------------------------------------------------------------')
-        print()
-
+        print('The program will start from here')
+        print('')
+        print('')
+        
 
     
