@@ -2,7 +2,7 @@
 
 import os
 import system
-import cryptography
+from cryptography import fernet
 import random
 import time
 import json
@@ -14,37 +14,18 @@ import pandas
 # The libraries will be used for the encryption and decryption for the data
 
 class Crypnot():
-    def read_file(self,file_name):
-        file_read = open(file_name,'r')
+    def generate_key(self):
+        # This will generate the key and save it
+        key = fernet.generate_key()
+        with open('secret_key','w') as key_file:
+            key_file.write(key)
+
+        return key_file
+
+    def load_key(self, generate_key()):
         
-    
-    def write_files(self):
 
 
-    def encrypt_file(self):
-
-
-    def decrypt_file(self):
-
-
-    
-    def encrypt_text(self):
-
-
-    
-    def decrypt_text(self):
-
-
-
-    def encrypt_image(self):
-
-
-
-    def decrypt_image(self):
-
-
-
-    
     def result(self):
         print('------------------------------------------------------------')
         print('The program will start from here')
