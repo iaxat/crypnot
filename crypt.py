@@ -17,13 +17,13 @@ class Crypnot():
     def generate_key(self):
         # This will generate the key and save it
         key = fernet.generate_key()
-        with open('secret_key','w') as key_file:
+        with open('secret.key','w') as key_file:
             key_file.write(key)
 
         return key_file
 
     def load_key(self, generate_key()):
-        
+            return open("secret.key", "rb").read()
 
 
     def result(self):
