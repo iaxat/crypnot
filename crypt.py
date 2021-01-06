@@ -15,7 +15,7 @@ import pandas
 
 class Crypnot():
     def read_file():
-
+        
     
     def write_files():
 
