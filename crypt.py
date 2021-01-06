@@ -26,6 +26,18 @@ class Crypnot():
             return open("secret.key", "rb").read()
 
 
+    def encrypt_message(self,message):
+        key = load_key()
+        encoded_msg = message.encode()
+        f = fernet(key)
+        encrypted_message = f.encrypt(encoded_msg)
+        print(encrypted_message)
+
+    def read_file(self,input_file):
+        with open(input_file,'r') as input_file_open:
+            
+
+
     def result(self):
         print('------------------------------------------------------------')
         print('The program will start from here')
