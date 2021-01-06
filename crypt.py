@@ -14,37 +14,37 @@ import pandas
 # The libraries will be used for the encryption and decryption for the data
 
 class Crypnot():
-    def read_file():
+    def read_file(self,file_name):
         
     
-    def write_files():
+    def write_files(self):
 
 
-    def encrypt_file():
+    def encrypt_file(self):
 
 
-    def decrypt_file():
-
-
-    
-    def encrypt_text():
+    def decrypt_file(self):
 
 
     
-    def decrypt_text():
+    def encrypt_text(self):
+
+
+    
+    def decrypt_text(self):
 
 
 
-    def encrypt_image():
+    def encrypt_image(self):
 
 
 
-    def decrypt_image():
+    def decrypt_image(self):
 
 
 
     
-    def result():
+    def result(self):
 
 
 
