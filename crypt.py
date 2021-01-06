@@ -17,7 +17,7 @@ class Crypnot():
     def generate_key(self):
         # This will generate the key and save it
         key = fernet.generate_key()
-        with open('secret.key','w') as key_file:
+        with open('secret.key','wb') as key_file:
             key_file.write(key)
 
         return key_file
