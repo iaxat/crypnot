@@ -69,3 +69,6 @@ class Crypnot():
         elif option == '3':
             print('Awesome you have selected Image Option')
             image_option()
+
+
+start()
