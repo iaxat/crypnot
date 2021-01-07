@@ -42,14 +42,14 @@ class Crypnot():
     
 
 
-    def text_option:
+    def text_option(self,text):
 
 
 
-    def file_option:
+    def file_option(self,file):
 
 
-    def image_option:
+    def image_option(self,image):
 
 
 
